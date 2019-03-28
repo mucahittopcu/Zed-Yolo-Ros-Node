@@ -13,16 +13,3 @@ The left image will be used to display the detected objects alongside the distan
 ## Setup ZED Python
 
 Download and install the [ZED Python wrapper](https://github.com/stereolabs/zed-python) following the instructions, to make sure everything works you sould try a [sample](https://github.com/stereolabs/zed-python/tree/master/examples).
-
-## Setup Darknet
-
-We will use a fork of darknet from @AlexeyAB : https://github.com/AlexeyAB/darknet
-
-- It is already present in the folder libdarknet
-
-- Simply call make in the folder
-
-        cd libdarknet
-        make -j4
-
-- For more information regarding the compilation instructions, check the darknet Readme [here](../libdarknet/README.md)
